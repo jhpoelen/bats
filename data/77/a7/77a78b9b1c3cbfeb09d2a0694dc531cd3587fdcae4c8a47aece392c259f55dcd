@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="juAARI6UvMVokJ2Nl6QnEp3zF7Fmx+wf/tpURDcmTbiq4tJSjKX/lcXSwwPCMLWgLEmQqxWAYLwZ0gU81naPmg==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="resourcesync" href="https://www.morphosource.org/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+
+<title>Showcase Media // MorphoSource</title>
+
+<!-- application css -->
+<link rel="stylesheet" media="screen" href="/assets/application-0a3f8623f067d73dade5437fa9e57af0c68095f5b6015f7fa5e30bccdc2549fe.css" />
+
+<!-- application js -->
+<script src="/assets/application-26ea360170528c0177815e47a8cf1687c818f7c59bc610acf72f1f897405b2b7.js"></script>
+
+<style>
+a { color: #2e74b2; }
+.navbar-inverse .navbar-link { color: #ffebcd; }
+
+.navbar-inverse { background-color: #003880; }
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus { background-color: #003880; }
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand { color: #ffffff; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+<!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129875748-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-129875748-1', { 'anonymize_ip': true, 'transport_type': 'beacon' });
+  </script>
+
+
+
+<!-- for extras, e.g., a favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+    
+    <!-- todo: if no ion icons needed, remove the css link later 
+      link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body class="showcase">
+    <header>
+  <nav id="masthead" class="navbar test-class navbar-inverse navbar-static-top" role="navigation">
+    <div class="container" style="color:white">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header col-xs-12 col-sm-9">
+        <div class="col-xs-12 col-sm-5 logo">
+          <a id="logo" class="navbar-brand" href="/?locale=en" data-no-turbolink="true">
+  <span class="glyphicon"><img src="/assets/skeleton_head_80px-672aaba5d78ec7cdef2e44247ca31ffe7ca13144ab28d125244442b5f606108b.png" width="40" height="40" /></span>
+  <span class="organization_name">MorphoSource</span>
+  <span style='font-size: small'>BETA</span>
+</a>
+
+        </div>
+        <div class="col-xs-10 col-sm-7">
+          <form class="form-horizontal search-form" id="search-form-header" role="search" action="/catalog/media?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" />
+  <div class="form-group">
+    <div class="input-group">
+      <input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Enter search terms" />
+      <div class="input-group-btn">
+
+        <button type="submit" class="btn btn-primary" id="search-submit-header">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Go
+        </button>
+
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+          <span class="sr-only" data-search-element="label" style='display:contents;'>Media</span>
+          <span id='selected-search-label' aria-hidden="true" style='display:none;' >Media</span>
+          <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu pull-right">
+          <li>
+            <a data-search-option="/catalog/media?locale=en" data-search-label="Media" href="#">Media</a>
+          </li>
+          <li>
+            <a data-search-option="/catalog/objects?locale=en" data-search-label="Objects" href="#">Physical Objects</a>
+          </li>
+          <li>
+            <a data-search-option="/catalog/organizations?locale=en" data-search-label="Organizations" href="#">Organizations</a>
+          </li>
+          <li>
+            <a data-search-option="/catalog/teams_projects?locale=en" data-search-label="Teams/Projects" href="#">Teams &amp; Projects</a>
+          </li>
+        </ul>
+      </div><!-- /.input-group-btn -->
+    </div><!-- /.input-group -->
+  </div><!-- /.form-group -->
+</form>
+        </div>
+        <div class="col-xs-2 pull-right">
+          <!-- mobile hamburger menu -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse col-xs-12 col-sm-3 navbar-right" id="top-navbar-collapse">
+        <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="dropdown browse-links">
+    <a role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="browse-links" href="/?locale=en">
+      <span>Browse</span>
+      <span class="caret"></span>
+</a>    <ul id="browse-links" class="dropdown-menu dropdown-menu-right" role="menu">
+      <li style='padding-top: 5px;'><a href="/browse/media_types_and_modalities?locale=en">Media Types and Modalities</a></li>
+      <li class="divider"></li>
+      <li><a href="/browse/physical_object_types?locale=en">Physical Object Types</a></li>
+      <li class="divider"></li>
+      <li><a href="/browse/taxonomies?locale=en">Biological Taxonomy</a></li>
+      <li class="divider"></li>
+      <li><a href="/browse/projects?locale=en">Projects</a></li>
+      <li class="divider"></li>
+      <li><a href="/browse/teams?locale=en">Teams</a></li>
+      <li class="divider"></li>
+      <li style='padding-bottom: 5px;'><a href="/browse/organizations?locale=en">Organizations</a></li>
+      
+    </ul>
+  </li><!-- /.btn-group -->
+    <li>
+      <a href="/users/sign_in?locale=en">
+        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+
+
+    <div id="content-wrapper" class="container-fluid content-wrapper fixed-width" role="main">
+      <a name="skip-to-content" id="skip-to-content"></a>
+       
+ 
+
+<div class="row media-showcase" id="showcase-title-wrapper">
+  <div class="col-xs-8">
+      <h1><div id="showcase-title">Media 000079516: Skeleton / Male [CTImageSeries] [Etc]</div>
+          <small class="text-muted badge-wrapper">
+            <div>Represents:</div>
+            <div><span class="label label-primary">Biological Specimen</span></div>
+            <div><span class="label label-primary" id="in-collection-badge">In Collection</span></div>
+
+            <div>
+              <a href="/concern/biological_specimens/000S23396">
+                mcz:mamm:59781 <i>Coleura afra</i>
+</a>            </div>
+          </small>
+      </h1>
+  </div>
+  <div class="col-xs-4 text-right">
+      <div class="show-actions">
+    <div class="btn-group" style="display: flex; justify-content: center; flex-wrap: wrap;">
+      <a class="hide" download="true" target="_blank" role="button" id="hidden-file-download" data-label="000079516" href="/zip?ids%5B%5D=000079516&amp;locale=en">Download</a>
+      <a class="btn btn-default" role="button" disabled="disabled" href="javascript:void(0)">Request Download</a>
+      <a class="btn btn-default" role="button" style="flex-grow: 1;" disabled="disabled" href="javascript:void(0)">Add to Cart</a>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+      <p style="text-align: center;"><a href="/users/sign_in?locale=en">Login</a> or <a href="/users/sign_up?locale=en">create an account</a> to download files</p>
+    </div>
+</div>
+
+  </div>
+  <div class="col-xs-12 flash-wrapper">
+    
+  </div>
+</div>
+
+
+<div class="row media-showcase">
+
+  <div class="col-sm-6 col-sm-push-6">
+    <div class="content-block preview">
+      
+
+      <div class="viewer-wrapper">
+        <div class="viewer">
+          <iframe id="uv-iframe"
+            height="100%"
+            width="100%"
+            src="/uv.html#?manifest=/manifests/14d2636b-eff7-465b-92d3-f932cae14715&config=/uv-config.json"
+            allowfullscreen
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    <div class="content-block">
+      	<h2>0 ADDITIONAL MEDIA RELATED TO ACQUISITION EVENT </h2>
+
+
+    </div>
+
+    <div class="content-block">
+      <h2>COLLECTIONS MEDIA BELONGS TO</h2>
+<div class="row">
+	<div class="col-xs-12">
+      <ul>
+          <li class='attribute attribute-title'>
+            <a href="/collections/00000C459?locale=en">MCZ - oVert</a>
+          </li>
+          <li class='attribute attribute-title'>
+            <a href="/collections/000368762?locale=en">The oVert Thematic Collections Network</a>
+          </li>
+      </ul>
+	</div>
+</div>
+
+    </div>
+    <div class="content-block">
+      <h2>MEDIA TAGS</h2>
+<div class="row tags">
+  <div id="tags-list">
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-sm-pull-6">
+    <div class="content-block">
+      <h2>FILE OBJECT DETAILS</h2>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Media ID</div><div class='col-xs-6 showcase-value '>000079516</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Media type</div><div class='col-xs-6 showcase-value '>CTImageSeries</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>File format(s)</div><div class='col-xs-6 showcase-value '>image/tiff</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>File size</div><div class='col-xs-6 showcase-value '>4,070,274,557 bytes</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Object element or part</div><div class='col-xs-6 showcase-value '>skeleton / male</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Side</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Orientation</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Short description</div><div class='col-xs-6 showcase-value '>zipped 16 bit tiff stack</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Full description</div><div class='col-xs-6 showcase-value '><span itemprop="description">Migrated MorphoSource 1 Media File Title: zipped 16 bit tiff stack Migrated MorphoSource 1 Media Group Title: microCT volume and derivatives Migrated MorphoSource 1 Media Group Description: Al calibration</span></div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Creator</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Date created</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Date uploaded</div><div class='col-xs-6 showcase-value '>June 03, 2019</div></div>
+
+  <div id="collapse-block-file-object-attributes" class="panel-collapse collapse collapse-block">
+  <div class='row'><div class='col-xs-6 showcase-label'>Image width</div><div class='col-xs-6 showcase-value '>2240</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Image height</div><div class='col-xs-6 showcase-value '>224</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Color space</div><div class='col-xs-6 showcase-value '>BlackIsZero</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Color depth</div><div class='col-xs-6 showcase-value '>16</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Compression</div><div class='col-xs-6 showcase-value '>Uncompressed</div></div>
+
+  
+  <div class='row'><div class='col-xs-6 showcase-label'>X pixel spacing</div><div class='col-xs-6 showcase-value '>0.0331641</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Y pixel spacing</div><div class='col-xs-6 showcase-value '>0.0331641</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Z pixel spacing</div><div class='col-xs-6 showcase-value '>0.0331641</div></div>
+  <div class='row'><div class='col-xs-6 showcase-label'>Pixel spacing units</div><div class='col-xs-6 showcase-value '>Mm</div></div>
+  
+  <div class='row'><div class='col-xs-6 showcase-label'>Number of images in set</div><div class='col-xs-6 showcase-value '>2,228</div></div>
+  
+  </div>
+  <div class="row collapse-button"><div class="panel-title"><a data-toggle="collapse" href="#collapse-block-file-object-attributes" class="btn collapse-block-file-object-attributes" aria-label="collapse/expand"><span class="glyphicon glyphicon-triangle-bottom"></span>Show more<span class="glyphicon glyphicon-triangle-bottom"></span></a></div></div>
+
+
+    </div>
+    <div class="content-block">
+      <h2>IMAGE ACQUISITION AND PROCESSING AT A GLANCE</h2>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Number of parent media</div><div class='col-xs-6 showcase-value '>0</div></div>
+
+<div class="row">
+	<div class="col-xs-6 showcase-label">Number of processing events</div>
+	<div class="col-xs-6 showcase-value">
+		1
+			(0 steps)
+		</div>
+</div>
+
+
+<div class='row'><div class='col-xs-6 showcase-label'>Modality</div><div class='col-xs-6 showcase-value break-all'>X-Ray Computed Tomography (CT/microCT)</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Device</div><div class='col-xs-6 showcase-value '>Bruker SkyScan 1173, Museum of Comparative Zoology (Harvard University)</div></div>
+
+    </div>
+    <div class="content-block">
+      <h2>OWNERSHIP AND PERMISSIONS</h2>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Data managed by</div><div class='col-xs-6 showcase-value '><span class='showcase-link'><a href="/users/4842">Matt Gage</a></span></div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Download permission</div><div class='col-xs-6 showcase-value '>Publish with Restricted Download</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Download reviewer</div><div class='col-xs-6 showcase-value '><span class='showcase-link'><a href="/users/9030">Mark Omura</a></span></div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>IP holder</div><div class='col-xs-6 showcase-value '>Harvard University, Museum of Comparative Zoology</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Copyright statement</div><div class='col-xs-6 showcase-value '><span class='glyphicon glyphicon-new-window'></span>&nbsp;<span class='showcase-link'><a target="blank" href="http://rightsstatements.org/vocab/InC/1.0/">http://rightsstatements.org/vocab/InC/1.0/</a></span></div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Creative Commons license</div><div class='col-xs-6 showcase-value '><span class='glyphicon glyphicon-new-window'></span>&nbsp;<span class='showcase-link'><a href=https://creativecommons.org/licenses/by-nc-nd/4.0/ target="_blank">Creative Commons BY-NC-ND Attribution-NonCommercial-NoDerivs 4.0 International</a></span></div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Morphosource use agreement type</div><div class='col-xs-6 showcase-value '>Standard</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Permits commercial use</div><div class='col-xs-6 showcase-value '>Commercial Use Not Permitted</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Permits 3D use</div><div class='col-xs-6 showcase-value '>3D Printing Limited</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Required archival of published derivatives</div><div class='col-xs-6 showcase-value '>On Any Repository</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Funding attribution</div><div class='col-xs-6 showcase-value '>NSF DBI-1701714; overt TCN; NSF DBI-1702263</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Publisher</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Cite as</div><div class='col-xs-6 showcase-value '>--</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Media preview mode</div><div class='col-xs-6 showcase-value '>Interactive/Embeddable</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Additional usage agreement</div><div class='col-xs-6 showcase-value '>None</div></div>
+    </div>
+
+
+    <div class="content-block">
+      <h2>IDENTIFIERS AND EXTERNAL LINKS</h2>
+
+<div class='row'><div class='col-xs-6 showcase-label'>MorphoSource ARK</div><div class='col-xs-6 showcase-value '><span class='glyphicon glyphicon-new-window'></span>&nbsp;<span class='showcase-link'><a href="http://n2t.net/ark:/87602/m4/M79516">ark:/87602/m4/M79516</a></span></div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>MorphoSource DOI</div><div class='col-xs-6 showcase-value '>Not assigned</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>External identifier</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>External media URL</div><div class='col-xs-6 showcase-value '>--</div></div>
+
+<!--div id="collapse-block-id-and-ext-links" class="panel-collapse collapse collapse-block">
+put more fields here, if any
+</div -->
+
+
+    </div>
+  </div>
+
+</div>
+
+<div class="row image-acq-detail">
+  <div class="col-sm-12">
+
+    <h2>IMAGE ACQUISITION AND PROCESSING IN DETAIL
+      <a aria-label="collapse/expand" data-toggle="collapse" href="#collapse-block-image-acquisition-in-detail" class="btn collapse-block-image-acquisition-in-detail"><span class="glyphicon glyphicon-triangle-top collapse-block-image-acquisition-in-detail"></span></a>
+    </h2>
+
+    <div id="collapse-block-image-acquisition-in-detail" class="panel-collapse collapse-block glyphicon-only table collapse in" aria-expanded="true">
+
+      <div class="row">
+        <div class="content-block-lg col-xs-12">
+
+          <div class="row" style="background-color: #efefef; margin-bottom: 20px">
+            <h3 style='font-weight: 500; padding-left: 15px; margin-top: 10px;'><i class="fas fa-camera fa-lg" style="width: 30px; text-align: center;"></i> <span>STEP 1: IMAGE ACQUISITION</span></h3>
+          </div>
+
+          <div class="row">
+            <div style='padding-left: 15px; padding-right: 15px;'>
+  Physical object
+  <!-- 0
+      # todo: later on we will need to handle more than 1 parent
+  -->
+    <a href="/concern/biological_specimens/000S23396">mcz:mamm:59781</a>
+  was imaged to create
+    undeposited raw media.
+
+</div>
+
+          </div>
+
+          <div class="row" style="margin-bottom: 30px;">
+            <div class="col-sm-6">
+              <div class="content-block">
+                <h2>Imaging Details</h2>
+                <!--div id="collapse-block-image-acquisition-attributes" class="panel-collapse collapse collapse-block" -->
+                <div class='row'><div class='col-xs-6 showcase-label'>Modality</div><div class='col-xs-6 showcase-value break-all'>X-Ray Computed Tomography (CT/microCT)</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Device</div><div class='col-xs-6 showcase-value '>Bruker SkyScan 1173</div></div>
+
+                <div class='row'><div class='col-xs-6 showcase-label'>Device facility</div><div class='col-xs-6 showcase-value '>Museum of Comparative Zoology (Harvard University)</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Creator</div><div class='col-xs-6 showcase-value '>Matt Gage</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Date</div><div class='col-xs-6 showcase-value '>--</div></div>
+
+                <div class='row'><div class='col-xs-6 showcase-label'>Software</div><div class='col-xs-6 showcase-value '>--</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Description</div><div class='col-xs-6 showcase-value '>--</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Imaging event description attachment</div><div class='col-xs-6 showcase-value '>None</div></div>
+                <div class='row'><div class='col-xs-6 showcase-label'>Imaging event reference attachment</div><div class='col-xs-6 showcase-value '>None</div></div>
+
+                    <div class='row'><div class='col-xs-6 showcase-label'>Exposure time</div><div class='col-xs-6 showcase-value '>1.085</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Flux normalization</div><div class='col-xs-6 showcase-value '>No</div></div>
+
+<div id="collapse-block-xray-attributes" class="panel-collapse collapse collapse-block">
+<div class='row'><div class='col-xs-6 showcase-label'>Pixel spacing calibration</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Shading correction</div><div class='col-xs-6 showcase-value '>No</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Filter</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Frame averaging</div><div class='col-xs-6 showcase-value '>5</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Projections</div><div class='col-xs-6 showcase-value '>960</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Voltage</div><div class='col-xs-6 showcase-value '>50</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Power</div><div class='col-xs-6 showcase-value '>0.008</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Amperage</div><div class='col-xs-6 showcase-value '>150</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Surrounding material</div><div class='col-xs-6 showcase-value '>air</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Xray tube type</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Target type</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Detector type</div><div class='col-xs-6 showcase-value '>--</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Detector pixels X</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Detector pixel size X</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Detector pixels Y</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Detector pixel size Y</div><div class='col-xs-6 showcase-value '>--</div></div>
+
+<div class='row'><div class='col-xs-6 showcase-label'>Detector configuration</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Source object distance</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Source detector distance</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Target material</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Rotation number</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Phase contrast</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Optical magnification</div><div class='col-xs-6 showcase-value '>--</div></div>
+<div class='row'><div class='col-xs-6 showcase-label'>Acquisition type</div><div class='col-xs-6 showcase-value '>--</div></div>
+</div>
+<div class="row collapse-button"><div class="panel-title"><a data-toggle="collapse" href="#collapse-block-xray-attributes" class="btn collapse-block-xray-attributes" aria-label="collapse/expand"><span class="glyphicon glyphicon-triangle-bottom"></span>Show more<span class="glyphicon glyphicon-triangle-bottom"></span></a></div></div>
+
+                <!--/div -->
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+            </div>
+          </div>
+
+        </div><!-- /content-block-lg -->
+
+      </div><!-- /row -->
+
+          <div class="row">
+  <div class="content-block-lg col-xs-12">
+    
+    <div class="row" style="background-color: #efefef; margin-bottom: 20px">
+      <h3 style='font-weight: 500; padding-left: 15px; margin-top: 10px;'><i class="fas fa-bolt fa-lg" style="width: 30px; text-align: center;"></i> <span>STEP 2: IMAGE PROCESSING</span></h3>
+    </div>
+
+    <div class="row">
+      <div style="padding-left: 15px; padding-right: 15px;">       
+          Raw media (undeposited)
+        was processed
+        to create
+        derived
+          <b>Media 000079516: Skeleton / Male [CTImageSeries] [Etc]</b>
+          (this media).
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="content-block" style="margin-bottom: 30px">
+          <h2>Processing Details</h2>
+            <div class="row">
+              <div class="col-xs-6 showcase-label">Creator</div>
+              <div class="col-xs-6 showcase-value">Matt Gage</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 showcase-label">Date processed</div>
+              <div class="col-xs-6 showcase-value">--</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 showcase-label">Software</div>
+              <div class="col-xs-6 showcase-value">--</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 showcase-label">Description</div>
+              <div class="col-xs-6 showcase-value">--</div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 showcase-label">Description attachment</div>
+              <div class="col-xs-6 showcase-value">
+                  None
+              </div>
+            </div>
+        </div>
+        <div class="content-block" style="margin-bottom: 30px">
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="content-block">
+          <h2>Media produced by this event on MorphoSource</h2>
+            <div class="row media-block">
+                <div class="thumbnail col-xs-4">
+                    <img src="/downloads/000270317?file=thumbnail" /><br>
+                    Media 000079516: Skeleton / Male [CTImageSeries] [Etc] (this media)<br>
+                  <br>
+                </div>
+
+            </div>              
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content-block-lg -->
+
+</div><!-- /row -->
+
+
+    </div><!-- /collapse-block-image-acquisition-in-detail -->
+
+  </div>
+</div>
+
+
+<!-- When media cart, requests, or showcase page, modal is used for requests and displays intended use field. -->
+<!-- When new requests page, modal is used for approvals -->
+<!-- When previous requests page, modal is used to edit an expiration date -->
+<div class="modal fade" id="pageModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span id="close-modal" aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title">
+  Intended Use
+</h4>
+<h5>
+  Please let the data owner know how you intend to use their data
+</h5>
+
+      </div>
+        <div class="modal-body">
+  <form id="modal-form" data-behavior="batch-select-all" class="form-horizontal" action="/request_work?locale=en" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Gm+tLd0l1BiuZx6s6m/FAhCKnDbFmLIrJdHWM7xljY6vcOeadsCMWquHvDJGlJ0Q583xE2CyY8/iDsMp6l4nGw==" />
+    <label class="control-label" for="intended_use">Intended Use</label>
+    <input class="form-control" required="required" minlength="50" type="text" name="intended_use[]" id="intended_use_" />
+    <input value="000079516" type="hidden" name="work_id[]" id="work_id_" />
+</div>
+<div class="modal-footer">
+  <button type="button" id="modal-cancel" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+    <input type="submit" value="Submit" class="btn btn-success" data-disable-with="Submit" />
+</form></div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+  $('body').on('shown.bs.modal','#pageModal', function (e) {
+  // If the button to request an individual item is clicked, add that item's id to an input in the form. Otherwise, collect all the checkboxes that have been selected and create an input for each of those.
+  if ($(e.relatedTarget).data('item-id')){
+    let item_id = $(e.relatedTarget).data('item-id');
+    createHiddenInputs(item_id);
+  } else if ($(e.relatedTarget).data('work-id')) {
+    let work_id = $(e.relatedTarget).data('work-id')
+  } else {
+    let item_ids = [];
+    $.each($('.batch_document_selector:checked'), function(){
+      item_ids.push($(this).val());
+    });
+    item_ids.forEach(createHiddenInputs);
+  }
+});
+
+// Adds a new input for each item selected
+function createHiddenInputs(id) {
+  $('<input>').attr({
+    type: 'hidden',
+    name: 'batch_document_ids[]',
+    value: id
+}).appendTo('form');
+}
+
+function clearHiddenInputs() {
+  var form = $('#modal-form');
+  form.find('input[name="batch_document_ids[]"]').remove();
+}
+
+$( document ).ready(function(){
+  // remove item ids from the form if modal is closed or cancel button is clicked
+  $("#modal-cancel, #close-modal").bind('click', function() {
+    clearHiddenInputs();
+  });
+  // remove item ids from the form if modal is closed by clicking outside of the modal
+  $('#pageModal').bind('click', function(e) {
+    if($(e.target).hasClass('in')) {
+      clearHiddenInputs();
+    };
+  });
+});
+
+</script>
+
+
+    </div><!-- /#content-wrapper -->
+    <footer class="navbar navbar-inverse site-footer no-horizontal-padding" style='border: none'>
+  <div class="container-fluid">
+    <div class="row no-horizontal-padding">
+      <div class="col-md-2 col-sm-6 col-xs-12 col-align col-align--top footer-section copyright">
+        <span>Copyright &copy; 2021 MorphoSource</span>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 col-align col-align--center footer-section footer-links">
+        <div class="row">
+          <div class="col-xs-3 no-horizontal-padding">
+            <a href="/docs/about">About</a>
+          </div>
+          <div class="col-xs-3 no-horizontal-padding">
+            <div class="row" style='padding-top: 0;'><span class='footer-label'>Docs</span></div>
+            <div class="row footer-sublink"><a href="/docs/guide">User Guide</a></div>
+            <div class="row footer-sublink"><a href="/docs/glossary"><span class="translation_missing" title="translation missing: en.hyrax.controls.resources.glossary">Glossary</span></a></div>
+            <div class="row footer-sublink"><a href="/docs/contributors"><span class="translation_missing" title="translation missing: en.hyrax.controls.resources.contributors">Contributors</span></a></div>
+            <div class="row footer-sublink"><a href="/docs/citation"><span class="translation_missing" title="translation missing: en.hyrax.controls.resources.citation">Citation</span></a></div>
+          </div>
+          <div class="col-xs-3 no-horizontal-padding">
+            <div class="row" style='padding-top: 0;'><span class='footer-label'>Resources</span></div>
+            <div class="row footer-sublink"><a href="/docs/api">API</a></div>
+            <div class="row footer-sublink"><a href="/docs/rss">Data Reporting</a></div>
+          </div>
+          <div class="col-xs-3 no-horizontal-padding">
+            <div class="row" style='padding-top: 0;'><span class='footer-label'><span class="translation_missing" title="translation missing: en.hyrax.controls.terms_of_use">Terms Of Use</span></span></div>
+            <div class="row footer-sublink"><a href="/terms">Users</a></div>
+            <div class="row footer-sublink"><a href="/contributor_terms">Contributors</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 col-align col-align--center footer-section support">
+        <span>Support From: </span>
+        <span id='duke-logo' style='margin-left: 10px;'><a href='https://www.duke.edu/'><img src="/assets/duke_logo-0b5d731833d1a8eeeaddef2f20304aefbc83ee8b4d15dd99d44d40dc5e039a03.png" /></a></span>
+        <span id='nsf-logo' style='margin-left: 10px;'><a href='https://www.nsf.gov/'><img src="/assets/nsf_logo-726e93dca184855f802a99294966aa68434473e0b077483fda37d235c366a9e0.png" /></a></span>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-12 col-align col-align--center footer-section icons">
+        <a href="https://github.com/MorphoSource"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://twitter.com/MorphoSource"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="mailto:morphosource@duke.edu"><i class="fas fa-envelope fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div id="ajax-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal menu" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+    
+  </body>
+</html>

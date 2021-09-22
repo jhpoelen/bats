@@ -1,10 +1,10 @@
 ---
-archive: "hash://sha256/a87a69a7a9077351f764875cdac0ce3cc178365db7d504f708390fdec7abdcce"
+archive: "hash://sha256/5150f699411c4433b0a6c111f8e6ec7fbae2c336ab237f3638bbdc9d0b2dda0d"
 data_location_comment: "replace [data_location/provenance_location] if content is\
   \ hosted separately, e.g., [https://example.org/data/] would link content to locations\
   \ like [https://example.org/data/aa/bb/aabb...] where [aabb...] is a sha256 content/provenance\
   \ hash"
 data_location: "data/"
 provenance_location: "data/"
-version: "0.3.0"
-created_at: "2021-09-22T05:47:21.499Z"
+version: "0.3.1"
+created_at: "2021-09-22T22:30:13.410Z"
